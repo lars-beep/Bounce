@@ -1,3 +1,7 @@
+var x = 50;
+var y = 50;
+var speedY = 1
+var speedX = 2
 /**
  * setup
  * de code in deze functie wordt één keer uitgevoerd door
@@ -18,9 +22,19 @@ function setup() {
  * uitgevoerd door de p5 library, nadat de setup functie klaar is
  */
 function draw() {
+  // Kleur de achtergrond blauw, zodat je het kunt zien
+  background('blue');
+
   // stel vulkleur in
   fill(100, 100, 255);
 
   // teken een cirkel
-  ellipse(50,50,80,80);
+  ellipse(x,y,80,80);
+
+  x = x + 2;
+  y = y + 1;
+
+  if y === 720 (
+    speedY = SpeedY * -1;
+  )
 }
