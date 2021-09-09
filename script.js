@@ -1,7 +1,8 @@
 var x = [50,100,150,200,250];
 var y = [50,100,150,200,250];
-var speedY = [4,8,12,16,20];
-var speedX = [20,16,12,8,4];
+var speedY = [3,5,10,16,25];
+var speedX = [2,3,12,13,21];
+
 /**
  * setup
  * de code in deze functie wordt één keer uitgevoerd door
