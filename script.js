@@ -1,7 +1,7 @@
 var x = [50,100,150,200,250];
 var y = [50,100,150,200,250];
-var speedY = [10,20,30,40,50];
-var speedX = [50,40,30,20,10];
+var speedY = [4,8,12,16,20];
+var speedX = [20,16,12,8,4];
 /**
  * setup
  * de code in deze functie wordt één keer uitgevoerd door
@@ -25,16 +25,19 @@ function draw() {
   // Kleur de achtergrond blauw, zodat je het kunt zien
   background('blue');
 
-  // stel vulkleur in
-  fill(100, 100, 255);
-
-  // teken een cirkel
+  // teken een cirkel en kleur ze in
+  fill (153,0,153)
   ellipse(x[0],y[0],80,80);
+  fill (255,0,127)
   ellipse(x[1],y[1],80,80);
+  fill (0,0,0)
   ellipse(x[2],y[2],80,80);
+  fill (0,255,255)
   ellipse(x[3],y[3],80,80);
+  fill (255,255,0)
   ellipse(x[4],y[4],80,80);
 
+  //verschillende snelheden aan de balletjes geven
   x[0] = x[0] + speedX[0];
   x[1] = x[1] + speedX[1];
   x[2] = x[2] + speedX[2];
