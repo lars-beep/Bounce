@@ -52,92 +52,92 @@ function draw() {
   y[4] = y[4] + speedY[4];
 
 //bal 1
- if (y[0] > 720 ) {
+ if (y[0] > 680 ) {
    speedY[0] = speedY[0] * -1;
  }
 
- if(y[0] < 0 ) {
+ if(y[0] < 40 ) {
    speedY[0] = speedY[0] * -1;
  }
 
- if(x[0] < 0 ) {
+ if(x[0] < 40 ) {
    speedX[0] = speedX[0] * -1;
  }
 
- if(x[0] > 1280) {
+ if(x[0] > 1240) {
    speedX[0] = speedX[0] * -1;
  }
 
 
 
  //bal 2
-if (y[1] > 720 ) {
+if (y[1] > 680 ) {
   speedY[1] = speedY[1] * -1;
 }
 
-if(y[1] < 0 ) {
+if(y[1] < 40 ) {
   speedY[1] = speedY[1] * -1;
 }
 
-if(x[1] < 0 ) {
+if(x[1] < 40 ) {
   speedX[1] = speedX[1] * -1;
 }
 
-if(x[1] > 1280) {
+if(x[1] > 1240) {
   speedX[1] = speedX[1] * -1;
 }
 
 
 //bal 3
-if (y[2] > 720 ) {
+if (y[2] > 680 ) {
   speedY[2] = speedY[2] * -1;
 }
 
-if(y[2] < 0 ) {
+if(y[2] < 40 ) {
   speedY[2] = speedY[2] * -1;
 }
 
-if(x[2] < 0 ) {
+if(x[2] < 40 ) {
   speedX[2] = speedX[2] * -1;
 }
 
-if(x[2] > 1280) {
+if(x[2] > 1240) {
   speedX[2] = speedX[2] * -1;
 }
 
 
 //bal 4
-if (y[3] > 720 ) {
+if (y[3] > 680 ) {
   speedY[3] = speedY[3] * -1;
 }
 
-if(y[3] < 0 ) {
+if(y[3] < 40 ) {
   speedY[3] = speedY[3] * -1;
 }
 
-if(x[3] < 0 ) {
+if(x[3] < 40 ) {
   speedX[3] = speedX[3] * -1;
 }
 
-if(x[3] > 1280) {
+if(x[3] > 1240 ) {
   speedX[3] = speedX[3] * -1;
 }
 
 
 //bal 5
-if (y[4] > 720 ) {
+if (y[4] > 680 ) {
   speedY[4] = speedY[4] * -1;
 }
 
-if(y[4] < 0 ) {
+if(y[4] < 40 ) {
   speedY[4] = speedY[4] * -1;
 }
 
-if(x[4] < 0 ) {
+if(x[4] < 40 ) {
   speedX[4] = speedX[4] * -1;
 }
 
-if(x[4] > 1280) {
+if(x[4] > 1240 ) {
   speedX[4] = speedX[4] * -1;
 }
 }
